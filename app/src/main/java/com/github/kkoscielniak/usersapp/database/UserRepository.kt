@@ -1,11 +1,11 @@
 package com.github.kkoscielniak.usersapp.database
 
-import com.github.kkoscielniak.usersapp.users.UserItem
 import com.github.kkoscielniak.usersapp.database.database.UserEntity
 import com.github.kkoscielniak.usersapp.database.database.UsersDao
-import com.github.kkoscielniak.usersapp.database.database.toUserItem
 import com.github.kkoscielniak.usersapp.database.database.toUserDetails
+import com.github.kkoscielniak.usersapp.database.database.toUserItem
 import com.github.kkoscielniak.usersapp.users.UserDetails
+import com.github.kkoscielniak.usersapp.users.UserItem
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

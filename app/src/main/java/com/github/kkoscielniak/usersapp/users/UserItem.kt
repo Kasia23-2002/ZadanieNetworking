@@ -1,7 +1,7 @@
 package com.github.kkoscielniak.usersapp.users
 
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
 @Serializable
 data class UserItem(
